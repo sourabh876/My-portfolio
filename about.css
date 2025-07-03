@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ead7d7;
+    cursor: pointer;
+
+}
+
+header {
+    display: flex;
+    background-color: #776ad7;
+    height: 10vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.rightheader{
+    display: flex;
+    gap: 20%;
+    width: fit-content;
+    position: relative;
+    left: 70%;
+}
+
+.rightheader a{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    pointer-events: auto;
+    top: 18%;
+}
+
+.rightheader img{
+    height: 35px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 8%;
+    
+    
+
+}
+
+.right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro{
+    position:relative;
+    top: 30px;
+    left: 10%;
+    height: 40vh;
+    width: 30vw;
+}
+.intro h1{
+    font-size: 3rem
+}
+.intro p{
+    font-size: 20px;
+}
+
+.mypic {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    display: flex;
+    top: 10%;
+    gap: 5%;
+}
+
+.mypic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.01s ease-in-out;
+   
+
+}
+
+.mypic img:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+   
+}
+
+.mypic h3 {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: -12px;
+}
+
+.introimg{
+ height: 40vh;
+ width: 30vw;  
+ display: flex;
+ justify-content: center;
+}
+
+.introimg img{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform .5s ease-in-out;
+}
+
+.introimg img:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+   
+}
+.skills{
+  height: fit-content;
+  width: 30vw;
+  position: relative;
+  top: 100px;
+  left: 10%;
+
+}
+.skills h1{
+    font-size: 3rem;
+}
+
+.skills ul li{
+    list-style: circle;
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px;
+    font-weight: bolder
+}
+
+footer{
+    height: fit-content;
+    width:100%;
+    position:absolute;
+    bottom: -50%;
+}
+
+.upperfooter {
+    background-color: #102f55;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    gap: 10%;
+
+}
+
+.lowerfooter {
+    background-color: #131A22;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.lowerfooter a {
+    height: fit-content;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.color {
+    color: white;
+}
+
+  .card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.card1 h4 {
+    width: fit-content;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+
+.card1 a {
+    color: white;
+    font-size: 15px;
+    width: fit-content;
+}
+
+.card1 p:hover {
+    
+    text-decoration: underline;
+    color: black;
+}
+
+.footer-content{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px)
+  {
+  header {
+    display: flex;
+    
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightheader {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    width: fit-content;
+  }
+
+  .intro h1,
+  .skills h1 {
+    font-size: 2rem;
+  }
+
+  .intro p,
+  .skills ul li,
+  .mypic h3 {
+    font-size: 16px;
+  }
+
+  .mypic {
+    padding: 5px;
+    display: flex;
+    position:absolute;
+    left: 0;
+    top: 20px;
+  }
+
+  .mypic img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .left{
+    width: 100vw;
+    height: 30vh;
+  }
+  .intro{
+    width: 80vw;
+    height: fit-content;
+    
+  }
+  .right{
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    top: 275px;
+  }
+  .introimg{
+    width: 85vw;
+  }
+
+  .introimg img{
+  height: 35vh;
+  width: 80vw;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform .5s ease-in-out;
+  }
+
+  .skills{
+    width: 85vw;
+    height: fit-content;
+    position: relative;
+    top: 500px;
+  }
+
+  .upperfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-content{
+    gap: 10px;
+  }
+
+  .card1{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1 a{
+    text-decoration: underline;
+    font-size: 12px;
+    
+  }
+  
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 850px)
+ {
+
+  
+   header {
+    display: flex;
+    height: 8vh;
+    
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightheader {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left:650px;
+    top: 20px;
+    width: fit-content;
+  }
+
+  .intro h1,
+  .skills h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro p,
+  .skills ul li,
+  .mypic h3 {
+    font-size: 20px;
+  }
+
+  .mypic {
+    padding: 5px;
+    display: flex;
+    position:absolute;
+    left: 0;
+    top: 20px;
+  }
+
+  .mypic img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .left{
+    width: 100vw;
+    height: 20vh;
+  }
+  .intro{
+    width: 40vw;
+    height: 50vh;
+    position: relative;
+    left: 220px;
+    
+  }
+  .right{
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    top: 375px;
+    
+  }
+  .introimg{
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .introimg img{
+  height: 35vh;
+  width: 50vw;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform .5s ease-in-out;
+  }
+
+  .skills{
+    width: 85vw;
+    height: fit-content;
+    position: relative;
+    top: 300px;
+  }
+
+  .upperfooter{
+    height:fit-content ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-content{
+    gap: 50px;
+  }
+
+  .card1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1 a{
+    text-decoration: underline;
+    font-size: 12px;
+    
+  }
+  
+  
+}

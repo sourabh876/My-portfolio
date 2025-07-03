@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+body {
+<<<<<<< HEAD
+    transform: scale(0.3);
+    transform-origin: top left;
+    height: 100vh;
+=======
+>>>>>>> 267131e (uploading)
+    cursor: pointer;
+    height: 100vh;
+    display: flex;
+    background-image: url('bgimage.jpeg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 100px;
+
+}
+
+.about {
+
+    position: relative;
+    font-size: 25px;
+    width: 40vw;
+    height: fit-content;
+
+}
+
+.about p {
+    padding: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: fit-content;
+    position: relative;
+    top: 8%;
+}
+
+button {
+    color: white;
+    height: 8vh;
+    width: 8vw;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px black;
+    border: 5px solid #bda38c;
+
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(5, 1, 1);
+}
+
+
+
+.right {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    gap: 3%;
+}
+
+.leftheader {
+    display: flex;
+    gap: 15%;
+    width: fit-content;
+}
+
+.leftheader a {
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: 25%;
+    left: 30%;
+    color: rgb(8, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.rightheader {
+    display: flex;
+    gap: 20%;
+    width: fit-content;
+    z-index: 1;
+    position: relative;
+    left: 130vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightheader a {
+    height: fit-content;
+    width: fit-content;
+    z-index: 3;
+    pointer-events: auto;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.rightheader img {
+    height: 40px;
+}
+
+.imgcontainer {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.imgcontainer img {
+    width: 300px;
+    object-fit: cover;
+
+
+}
+
+#coder {
+    height: 50%;
+    width: 50%;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+
+    body {
+        height: 100vh;
+    }
+
+    .header {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftheader {
+        width: 45%;
+        position: absolute;
+        left: 0;
+        padding: 10px;
+    }
+
+    .leftheader a {
+        font-size: 13px;
+        position: relative;
+        left: 5%;
+
+    }
+
+    .left {
+        width: 100%;
+        position: absolute;
+        top: 10%;
+    }
+
+    .rightheader {
+        width: 45%;
+        padding: 10px;
+        position: absolute;
+        left: 56%;
+        gap: 10px;
+    }
+
+    .rightheader img {
+        height: 25px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .about {
+
+        width: 90%;
+        position: absolute;
+        top: 2%;
+    }
+
+
+    .right {
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        height: fit-content;
+    }
+
+
+    .buttons {
+        position: absolute;
+        top: 170%;
+        width: 100%;
+    }
+
+    button {
+        width: 30%;
+        height: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 850px){
+
+
+     body {
+        height: 90vh;
+    }
+
+    .header {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftheader {
+        width: 45%;
+        position: absolute;
+        left: 0;
+        padding: 10px;
+    }
+
+    .leftheader a {
+        font-size: 13px;
+        position: relative;
+        left: 5%;
+
+    }
+
+    .left {
+        width: 100%;
+        position: absolute;
+        top: 10%;
+    }
+
+    .rightheader {
+        width: 45%;
+        padding: 10px;
+        position: absolute;
+        left: 56%;
+        gap: 10px;
+    }
+
+    .rightheader img {
+        height: 25px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .about {
+
+        width: 90%;
+        position: absolute;
+        top: 2%;
+    }
+
+
+    .right {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        height: fit-content;
+    }
+
+
+    .buttons {
+        position: absolute;
+        top: 205%;
+        width: 100%;
+    }
+
+    button {
+        width: 30%;
+        height: 40px;
+    }
+
+}
