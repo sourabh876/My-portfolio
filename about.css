@@ -255,8 +255,8 @@ footer{
     display: flex;
     gap: 1rem;
     position: absolute;
-    left: 250px;
-    top: 20px;
+    left: 45%;
+    top: 4%;
     width: fit-content;
   }
 
@@ -300,12 +300,12 @@ footer{
     top: 275px;
   }
   .introimg{
-    width: 85vw;
+    width: 70vw;
   }
 
   .introimg img{
-  height: 35vh;
-  width: 80vw;
+  height: 25vh;
+  width: 50vw;
   border-radius: 50%;
   object-fit: cover;
   transition: transform .5s ease-in-out;
@@ -315,7 +315,7 @@ footer{
     width: 85vw;
     height: fit-content;
     position: relative;
-    top: 500px;
+    top: 113%;
   }
 
   .upperfooter{
@@ -345,7 +345,7 @@ footer{
 
 }
 
-@media only screen and (min-width: 500px) and (max-width: 850px)
+@media only screen and (min-width: 500px) and (max-width: 1024px)
  {
 
   
@@ -365,8 +365,8 @@ footer{
     display: flex;
     gap: 1rem;
     position: absolute;
-    left:650px;
-    top: 20px;
+    left:70%;
+    top: 3%;
     width: fit-content;
   }
 
@@ -402,7 +402,7 @@ footer{
     width: 40vw;
     height: 50vh;
     position: relative;
-    left: 220px;
+    left: 240px;
     
   }
   .right{
