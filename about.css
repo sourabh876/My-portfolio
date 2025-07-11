@@ -295,12 +295,14 @@ footer{
   }
   .right{
     width: 100vw;
-    height: fit-content;
+    height: 30vh;
     position: absolute;
-    top: 275px;
+    top: 295px;
   }
   .introimg{
     width: 70vw;
+    height:25vh;
+      
   }
 
   .introimg img{
@@ -315,7 +317,7 @@ footer{
     width: 85vw;
     height: fit-content;
     position: relative;
-    top: 113%;
+    top: 130%;
   }
 
   .upperfooter{
