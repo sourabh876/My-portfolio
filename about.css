@@ -11,6 +11,7 @@ body {
 
 header {
     display: flex;
+    position: fixed;
     background-color: #776ad7;
     height: 10vh;
     width: 100%;
@@ -39,8 +40,8 @@ header {
 
 .container {
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 100vw;
     position: relative;
     top: 8%;
     
@@ -50,15 +51,15 @@ header {
 
 .right {
     width: 50vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .left {
-    width: 50%;
-    height: 100%;
+    width: 50vw;
+    height: auto;
     justify-content: center;
     text-align: center;
 }
@@ -67,7 +68,7 @@ header {
     position:relative;
     top: 30px;
     left: 10%;
-    height: 40vh;
+    height: auto;
     width: 30vw;
 }
 .intro h1{
@@ -134,7 +135,7 @@ header {
    
 }
 .skills{
-  height: fit-content;
+  height: auto;
   width: 30vw;
   position: relative;
   top: 100px;
@@ -155,9 +156,8 @@ header {
 
 footer{
     height: fit-content;
-    width:100%;
-    position:absolute;
-    bottom: -70%;
+    width:100vw;
+ 
 }
 
 .upperfooter {
